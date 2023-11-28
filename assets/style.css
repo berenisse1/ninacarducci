@@ -64,7 +64,6 @@ body {
 .picture {
 	flex: 1;
 	margin: 0 20px;
-	z-index: 0;
 }
 
 .picture img {
@@ -88,10 +87,6 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
-}
-
-#gallery {
-	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
@@ -168,7 +163,7 @@ body {
 	height: 30%;
 	bottom: 0;
 	left: 0;
-	z-index: 0;
+	
 }
 
 #services .container {
@@ -326,7 +321,7 @@ input[type="submit"] {
 	}
 	.top-header .nav, .top-header .nav ul {
 		width: 100%;
-		padding: 0 0 0 0;
+		padding: 0;
 	}
 	.top-header .nav li {
 		flex: 1;
